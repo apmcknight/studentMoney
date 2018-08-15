@@ -4,7 +4,7 @@ body{
 
 header{
     padding: 150px 250px 150px 250px;
-    background: #dddddd;
+    background: #f5f5f5;
 }
 
 h1{
@@ -26,4 +26,76 @@ h1{
     border-radius: 100px;
     border-style: none;
     background: #ff2d57;
+
+    /* Button Animation */
+    transition: all .24s cubic-bezier(0,.5,.51,1); 
+
+    /* Button Shaddow */
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+}
+
+.btn:hover { 
+    /* Button Animation */
+    transform: scale(1.15); 
+
+    /* Button Shaddow */
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.2);
+    
+}
+  
+.btn2 { 
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 100px;
+    border-style: none;
+    background: #ff2d57;
+
+    /* Button Animation */
+    transition: all .24s cubic-bezier(0,.5,.51,1); 
+}
+
+.btn2:hover { 
+    /* Button Animation */
+    transform: scale(1.04); 
+}
+
+.resourcesSection{
+    padding-top: 55px;
+    padding-left: 250px;
+}
+
+.resourceContainer{
+    width: 900px;
+    height: 200px;
+    padding: 55px 00px 00px 50px;
+    margin: 50px 00px 50px 00px;
+    border-radius: .75em;
+    border-style: none;
+    background: #f7f7f7;
+
+    /* Shaddows */
+    -webkit-box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.59);
+    box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.59);
+}
+
+.resourceTag{
+    width: 150px;
+    height: 35px;
+    margin: 10px 5px 00px 00px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color:rgba(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5);
 }
