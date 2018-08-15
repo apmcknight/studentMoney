@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 150px 250px 150px 250px;
+    background: #dddddd;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 35px;
+}
+
+.parHeader{
+    font-weight: 500;
+    margin: 25px 00px 30px 00px;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 100px;
+    border-style: none;
+    background: #ff2d57;
+}
